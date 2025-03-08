@@ -25,12 +25,6 @@ p {
   margin: 20px auto;
   line-height: 1.5;
 }
-p.clear {
-  clear: center;
-  clear: 800px;
-  clear: 20px auto;
-  clear: 1.5;
-}
 div {
   margin: 0 auto;
   width: 25%;
@@ -38,4 +32,12 @@ div {
   float: left;
   text-align: middle;
   padding: 20px 0; 
+}
+h3 + p {
+  margin: 0 auto;
+  width: 25%;
+  background: red;
+  text-align: center; 
+  display: block;
+  height: 150px;
 }
